@@ -1,12 +1,11 @@
-import {reactive} from "vue "
+import { reactive } from "vue";
 
 const store = reactive({
-    saldo: 6969,
-})
+  saldo: 469,
+  addSaldo: function() {
+    this.saldo += 100;
+    console.log(this.saldo);
+  },
+});
 
-
-
-
-
-export default store
-
+export default store;
